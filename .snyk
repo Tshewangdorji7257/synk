@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.0.0
+
+# Ignore specific vulnerabilities
+ignore:
+  # Example: Ignore a specific vulnerability ID
+  # 'SNYK-JAVA-COMFASTERXMLJACKSONCORE-1234567':
+  #   - '*':
+  #       reason: 'Acceptable risk - not exploitable in our context'
+  #       expires: '2024-12-31T23:59:59.999Z'
+
+# Patch configuration (for future use)
+patches: {}
+
+# Language settings
+language-settings:
+  java:
+    # Java-specific settings can be added here
